@@ -1,0 +1,426 @@
+<title>Nuestro primer mes</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=DM+Serif+Display:ital@0;1&family=Nunito:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+
+<div class="bg" aria-hidden="true"></div>
+<div class="veil" aria-hidden="true"></div>
+
+<main>
+  <header>
+    <p class="eyebrow">Feliz · 14 de noviembre · Nuestro primer mes</p>
+    <h1>Un inicio muy lindo junto a ti <em>mi niña hermosa</em></h1>
+  </header>
+
+  <article class="letter">
+    <h2>Princesita,</h2>
+    <p>Gracias por llegar a mi vida, me encanta la manera en la que nos conocimos (aunque fue muy random) pero gracias a eso te encontré y estoy muy seguro de que te quiero para siempre, me gusta todo de ti y la manera en como me haces sentir eres una niña muy dulce, carismática, graciosa, renegona, paciente y me mimas muchito con tus lindos besitos.</p>
+    <p>Me haces sentir tan seguro y amado cuando estoy contigo, cuando me tratas lindo, me das un besito y cuando escuchas mis problemitas o pensamientos negativos, eres una chica tan maravillosa  que me hace pensar que estoy soñando y quisiera que me dejes seguir estando a tu lado por siempre mi niña peshosha, prometo cuidarte por siempre y seguir incrementando la intensidad de mi amor por ti.</p>
+    <p>Pensar que casi te pierdo gracias a mis nervios pero te juro que al escuchar tu voz me derretí y gracias por no rendirte conmigo aunque no sea el mejor, prometo que mejorar en las cosas que me hacen falta cambiar y enserio muchas gracias por escucharme, te amo mi niña hermosa mua.</p>
+    <p>Feliz primer mes, mi amorcito. Te amo muchito</p>
+    <div class="sign">Con todo mi amor para mi linda y preciosa princesita.</div>
+  </article>
+
+  <section class="count" aria-label="Tiempo juntos y vale de besitos">
+    <!-- VALE DE BESITOS: va a la izquierda del contador. El texto de abajo es el <p class="vale-text">. -->
+    <div class="vale" role="img" aria-label="Vale por besitos">
+      <div class="vale-ticket" aria-hidden="true">
+        <span class="vale-top">Vale por</span>
+        <svg class="vale-heart" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7.5-4.6-9.6-9.3C.9 8.2 3 4.5 6.6 4.5c2 0 3.5 1 5.4 3 1.9-2 3.4-3 5.4-3 3.6 0 5.7 3.7 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg>
+        <span class="vale-main">Besitos</span>
+      </div>
+    </div>
+    <p class="vale-text">Para eso debes portarte muy bien mi niña preciosa</p>
+
+    <div class="count-num">
+      <div class="flip"><span class="flip-num">30</span></div>
+      <span class="count-label">días</span>
+    </div>
+    <!-- TEXTO DE LOS 30 DÍAS: borra la frase de ejemplo y escribe aquí lo que quieras decir. -->
+    <p class="count-text">Un mes dónde te pude conocer mucho más, sentir tu amor y lo mucho que te amo</p>
+  </section>
+
+  <section class="ask" aria-labelledby="ask-title">
+    <h2 id="ask-title">¿Conocernos te pareció tan hermoso como a mí?</h2>
+    <div class="choices">
+      <button class="btn btn-main" id="yes" type="button">Todo que ver</button>
+      <button class="btn" id="no" type="button">Nadota</button>
+    </div>
+    <p class="reply" id="reply" aria-live="polite"></p>
+  </section>
+
+  <!-- PREGUNTA 2: "Shi" abre la alerta de los gatitos. "Ño" se escapa y a la tercera vez sale Garu. -->
+  <section class="ask" aria-labelledby="ask2-title">
+    <h2 id="ask2-title">¿Quieres ser mía por el resto de nuestras vidas?</h2>
+    <div class="arena" id="arena2">
+      <button class="btn btn-main" id="yes2" type="button">Shi mi amorcito</button>
+      <button class="btn btn-run" id="no2" type="button">Ño, porque estarás jode y jode</button>
+    </div>
+  </section>
+
+  <section class="photos" aria-label="Nuestras fotos">
+    <h2>Tiempo con mi princesita</h2>
+    <!-- FOTOS: están en la carpeta img/ como foto1.jpg, foto2.jpg y foto3.jpg.
+         Para cambiar una, reemplaza el archivo con el mismo nombre. El texto de cada foto va en <figcaption>. -->
+    <div class="shots">
+      <figure class="polaroid">
+        <img src="img/foto1.jpg" alt="Captura de una llamada de WhatsApp de nuestras noches" loading="lazy">
+        <figcaption>Llamadita de mi Princesita</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <img src="img/foto2.jpg" alt="Una flor fucsia y blanca colgando de una rama" loading="lazy">
+        <figcaption>Una Sophie hadita</figcaption>
+      </figure>
+      <figure class="polaroid">
+        <img src="img/foto3.jpeg" alt="Dos laptops con Minecraft abierto, jugando juntos" loading="lazy">
+        <figcaption>Mi princesita Sophie</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="moments" aria-label="Mejores momentos">
+    <h2>Momentos graciosos con mi Shiquilla</h2>
+    <!-- MEJORES MOMENTOS: GUÍA PARA PONER TUS 3 VIDEOS
+         1. Crea una carpeta llamada "videos" al lado de index.html (en el zip ya viene creada).
+         2. Guarda ahí tus videos con estos nombres exactos: vid1.mp4, vid2.mp4 y vid3.mp4.
+         3. Cada tarjeta de abajo apunta a su video en data-src y en el <video src>. Si cambias un nombre, cámbialo en los dos sitios.
+         4. El título de cada tarjeta es el texto dentro de <span class="vtitle">.
+         5. Al tocar una tarjeta, el video se agranda en una ventana y empieza a sonar. -->
+    <div class="vids">
+      <button class="vcard" type="button" data-src="videos/vid1.mp4">
+        <video src="videos/vid1.mp4#t=0.5" muted playsinline preload="metadata"></video>
+        <span class="vplay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg></span>
+        <span class="vtitle">Sophie BURLONA</span>
+      </button>
+      <button class="vcard" type="button" data-src="videos/vid2.mp4">
+        <video src="videos/vid2.mp4#t=0.5" muted playsinline preload="metadata"></video>
+        <span class="vplay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg></span>
+        <span class="vtitle">SKIPEAAA</span>
+      </button>
+      <button class="vcard" type="button" data-src="videos/vid3.mp4">
+        <video src="videos/vid3.mp4#t=0.5" muted playsinline preload="metadata"></video>
+        <span class="vplay" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg></span>
+        <span class="vtitle">ALA ALA ALA</span>
+      </button>
+    </div>
+  </section>
+</main>
+
+<img class="mascot mascot-l" src="img/polar.png" alt="" aria-hidden="true">
+<img class="mascot mascot-r" src="img/hellokitty.gif" alt="" aria-hidden="true">
+<div class="hearts" id="hearts" aria-hidden="true"></div>
+
+<div class="alert" id="alert" role="alertdialog" aria-modal="true" aria-label="Respuesta" hidden>
+  <div class="alert-card">
+    <img src="img/nojao.png" alt="Un perrito blanco con cara de duda y el texto nojao">
+    <button class="btn btn-main" id="alert-close" type="button">Volver a elegir</button>
+  </div>
+</div>
+
+<!-- PREGUNTA 2: alertas. Las imágenes están en img/gatitos.webp y img/garu.webp; los textos van en <p class="alert-text">. -->
+<div class="alert" id="alert-yes" role="alertdialog" aria-modal="true" aria-label="Respuesta: sí" hidden>
+  <div class="alert-card">
+    <img src="img/gatitos.webp" alt="Dos gatitos, uno gris y uno blanco, dándose un besito">
+    <p class="alert-text">Yo también mi capitana YAJOY</p>
+    <button class="btn btn-main" id="alert-yes-close" type="button">Cerrar</button>
+  </div>
+</div>
+
+<div class="alert" id="alert-garu" role="alertdialog" aria-modal="true" aria-label="Respuesta: no" hidden>
+  <div class="alert-card">
+    <img src="img/garu.webp" alt="Garu, un personaje de dibujos animados, con cara de enojado">
+    <p class="alert-text">Que te pasa panzona</p>
+    <button class="btn btn-main" id="alert-garu-close" type="button">Volver a elegir</button>
+  </div>
+</div>
+
+<div class="alert" id="vmodal" role="dialog" aria-modal="true" aria-label="Video" hidden>
+  <div class="vmodal-card">
+    <video id="vmodal-video" controls playsinline></video>
+    <p class="vmodal-msg" id="vmodal-msg" hidden></p>
+    <button class="btn btn-main" id="vmodal-close" type="button">Cerrar</button>
+  </div>
+</div>
+
+<div class="player" id="player">
+  <div class="player-card">
+    <div class="disc" aria-hidden="true">
+      <div class="vinyl"></div>
+      <div class="arm"></div>
+    </div>
+    <div class="info">
+      <p class="song-title">Karl Neudert - A este punto</p>
+      <span class="chip">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg>
+        <span id="time">0:00 / 0:00</span>
+      </span>
+      <div class="bar" id="bar" role="progressbar" aria-label="Progreso de la canción" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="fill" id="fill"></div></div>
+    </div>
+    <button class="play-btn" id="play" type="button" aria-label="Reproducir">
+      <svg class="i-play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg>
+      <svg class="i-pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1.2"/><rect x="14" y="5" width="4" height="14" rx="1.2"/></svg>
+    </button>
+  </div>
+  <audio id="song" src="musica/cancion.mp3" preload="metadata"></audio>
+</div>
+
+<script>
+(function () {
+  // Corazones que caen (animados con CSS)
+  var layer = document.getElementById("hearts");
+  var count = Math.round(Math.min(30, Math.max(16, window.innerWidth / 32)));
+  for (var i = 0; i < count; i++) {
+    var d = 9 + Math.random() * 10;
+    var el = document.createElement("span");
+    el.className = "heart c" + (1 + (i % 4));
+    el.style.setProperty("--x", (Math.random() * 100).toFixed(1) + "%");
+    el.style.setProperty("--s", (14 + Math.random() * 18).toFixed(0) + "px");
+    el.style.setProperty("--d", d.toFixed(1) + "s");
+    el.style.setProperty("--delay", "-" + (Math.random() * d).toFixed(1) + "s");
+    el.style.setProperty("--sw", (14 + Math.random() * 34).toFixed(0) + "px");
+    el.style.setProperty("--o", (0.55 + Math.random() * 0.4).toFixed(2));
+    layer.appendChild(el);
+  }
+
+  // Reproductor: usa musica/cancion.mp3; si el archivo no está, suena una melodía de caja musical
+  var player = document.getElementById("player");
+  var song = document.getElementById("song");
+  var playBtn = document.getElementById("play");
+  var timeEl = document.getElementById("time");
+  var fillEl = document.getElementById("fill");
+  var bar = document.getElementById("bar");
+  var useSynth = false, playing = false;
+  var actx = null, master = null, timer = null, nextTime = 0, step = 0;
+  var chords = [[261.63, 329.63, 392.00, 523.25], [220.00, 261.63, 329.63, 440.00], [174.61, 220.00, 261.63, 349.23], [196.00, 246.94, 293.66, 392.00]];
+  var pattern = [0, 1, 2, 3, 2, 1, 2, 3];
+
+  function fmt(s) {
+    if (!isFinite(s)) s = 0;
+    var m = Math.floor(s / 60), r = Math.floor(s % 60);
+    return m + ":" + (r < 10 ? "0" : "") + r;
+  }
+  function paint() {
+    var cur = song.currentTime || 0, dur = song.duration;
+    timeEl.textContent = fmt(cur) + " / " + fmt(dur);
+    var pct = dur ? Math.min(100, cur / dur * 100) : 0;
+    fillEl.style.width = pct + "%";
+    bar.setAttribute("aria-valuenow", String(Math.round(pct)));
+  }
+  function setUi() {
+    player.classList.toggle("is-playing", playing);
+    playBtn.setAttribute("aria-label", playing ? "Pausar" : "Reproducir");
+  }
+  song.addEventListener("timeupdate", paint);
+  song.addEventListener("loadedmetadata", paint);
+  song.addEventListener("ended", function () { playing = false; setUi(); paint(); });
+  song.addEventListener("error", function () { useSynth = true; });
+
+  function note(freq, t) {
+    var o = actx.createOscillator(), o2 = actx.createOscillator(), gn = actx.createGain();
+    o.type = "triangle"; o.frequency.value = freq;
+    o2.type = "sine"; o2.frequency.value = freq * 2;
+    gn.gain.setValueAtTime(0, t);
+    gn.gain.linearRampToValueAtTime(.5, t + .012);
+    gn.gain.exponentialRampToValueAtTime(.0008, t + 1.5);
+    o.connect(gn); o2.connect(gn); gn.connect(master);
+    o.start(t); o2.start(t); o.stop(t + 1.6); o2.stop(t + 1.6);
+  }
+  function schedule() {
+    while (nextTime < actx.currentTime + .35) {
+      var chord = chords[Math.floor(step / 8) % chords.length];
+      note(chord[pattern[step % 8]], nextTime);
+      if (step % 8 === 0) note(chord[0] / 2, nextTime);
+      nextTime += .42; step++;
+    }
+  }
+  function synthStart() {
+    if (!actx) {
+      var AC = window.AudioContext || window.webkitAudioContext;
+      actx = new AC();
+      master = actx.createGain(); master.gain.value = .13;
+      var delay = actx.createDelay(); delay.delayTime.value = .32;
+      var fb = actx.createGain(); fb.gain.value = .35;
+      var wet = actx.createGain(); wet.gain.value = .45;
+      master.connect(actx.destination);
+      master.connect(delay); delay.connect(fb); fb.connect(delay); delay.connect(wet); wet.connect(actx.destination);
+    }
+    actx.resume();
+    nextTime = actx.currentTime + .1;
+    timer = setInterval(schedule, 100);
+  }
+  function synthStop() {
+    clearInterval(timer); timer = null;
+    if (actx) actx.suspend();
+  }
+  function pauseSong() {
+    if (!playing) return;
+    if (useSynth) synthStop(); else song.pause();
+    playing = false; setUi();
+  }
+
+  playBtn.addEventListener("click", function () {
+    try {
+      if (playing) { pauseSong(); return; }
+      if (useSynth) { synthStart(); playing = true; setUi(); return; }
+      var p = song.play();
+      playing = true; setUi();
+      if (p && p.catch) {
+        p.catch(function () {
+          useSynth = true;
+          try { synthStart(); playing = true; } catch (e) { playing = false; }
+          setUi();
+        });
+      }
+    } catch (e) { playing = false; setUi(); }
+  });
+  bar.addEventListener("click", function (e) {
+    if (useSynth || !song.duration) return;
+    var r = bar.getBoundingClientRect();
+    song.currentTime = Math.max(0, Math.min(1, (e.clientX - r.left) / r.width)) * song.duration;
+    paint();
+  });
+
+  // Pregunta
+  var reply = document.getElementById("reply");
+  var alertEl = document.getElementById("alert");
+  var closeBtn = document.getElementById("alert-close");
+  var noBtn = document.getElementById("no");
+  document.getElementById("yes").addEventListener("click", function () {
+    reply.textContent = "Sabía que dirías eso Sophie pentecostés";
+  });
+  function openAlert() {
+    reply.textContent = "";
+    alertEl.hidden = false;
+    closeBtn.focus();
+  }
+  function closeAlert() {
+    alertEl.hidden = true;
+    noBtn.focus();
+  }
+  noBtn.addEventListener("click", openAlert);
+  closeBtn.addEventListener("click", closeAlert);
+  alertEl.addEventListener("click", function (e) { if (e.target === alertEl) closeAlert(); });
+
+  // Mejores momentos: el video se agranda en una ventana
+  var vmodal = document.getElementById("vmodal");
+  var vvideo = document.getElementById("vmodal-video");
+  var vmsg = document.getElementById("vmodal-msg");
+  var vclose = document.getElementById("vmodal-close");
+  var cards = document.querySelectorAll(".vcard");
+  var lastCard = null;
+
+  Array.prototype.forEach.call(cards, function (card) {
+    var thumb = card.querySelector("video");
+    if (thumb) thumb.addEventListener("error", function () { thumb.style.display = "none"; });
+    card.addEventListener("click", function () { openVideo(card); });
+  });
+  function openVideo(card) {
+    pauseSong();
+    lastCard = card;
+    vmsg.hidden = true;
+    vvideo.hidden = false;
+    vvideo.src = card.getAttribute("data-src");
+    vmodal.hidden = false;
+    vclose.focus();
+    var p = vvideo.play();
+    if (p && p.catch) p.catch(function () {});
+  }
+  function closeVideo() {
+    vvideo.pause();
+    vvideo.removeAttribute("src");
+    vvideo.load();
+    vmodal.hidden = true;
+    if (lastCard) lastCard.focus();
+  }
+  vvideo.addEventListener("error", function () {
+    if (!vvideo.getAttribute("src")) return;
+    vvideo.hidden = true;
+    vmsg.textContent = "Falta el archivo " + lastCard.getAttribute("data-src") + ". Guárdalo en la carpeta videos.";
+    vmsg.hidden = false;
+  });
+  vclose.addEventListener("click", closeVideo);
+  vmodal.addEventListener("click", function (e) { if (e.target === vmodal) closeVideo(); });
+
+  // Pregunta 2: "Shi" abre a los gatitos; "Ño" se escapa y a la tercera vez aparece Garu
+  var yes2 = document.getElementById("yes2");
+  var no2 = document.getElementById("no2");
+  var arena = document.getElementById("arena2");
+  var alertYes = document.getElementById("alert-yes");
+  var alertGaru = document.getElementById("alert-garu");
+  var yesClose = document.getElementById("alert-yes-close");
+  var garuClose = document.getElementById("alert-garu-close");
+  var tries = 0, lastTry = 0;
+
+  function closeYes() { alertYes.hidden = true; yes2.focus(); }
+  function closeGaru() {
+    alertGaru.hidden = true;
+    tries = 0;            // vuelve a empezar: el botón regresa a su sitio
+    setPos(0, 0);
+    yes2.focus();
+  }
+  yes2.addEventListener("click", function () { alertYes.hidden = false; yesClose.focus(); });
+  yesClose.addEventListener("click", closeYes);
+  alertYes.addEventListener("click", function (e) { if (e.target === alertYes) closeYes(); });
+  garuClose.addEventListener("click", closeGaru);
+  alertGaru.addEventListener("click", function (e) { if (e.target === alertGaru) closeGaru(); });
+
+  function setPos(x, y) {
+    no2.style.setProperty("--tx", x + "px");
+    no2.style.setProperty("--ty", y + "px");
+  }
+  // elige un lugar dentro de la zona de juego, sin tapar el botón "Shi" y lo más lejos posible del puntero
+  function runAway(px, py) {
+    var a = arena.getBoundingClientRect();
+    var w = no2.offsetWidth, h = no2.offsetHeight;
+    var homeX = a.left + no2.offsetLeft, homeY = a.top + no2.offsetTop;
+    var y = yes2.getBoundingClientRect();
+    var curX = homeX + (parseFloat(no2.style.getPropertyValue("--tx")) || 0);
+    var curY = homeY + (parseFloat(no2.style.getPropertyValue("--ty")) || 0);
+    var spots = [];
+    for (var gx = 0; gx <= 8; gx++) {
+      for (var gy = 0; gy <= 6; gy++) {
+        var cx = a.left + gx * Math.max(0, a.width - w) / 8;
+        var cy = a.top + gy * Math.max(0, a.height - h) / 6;
+        if (cx < y.right + 8 && cx + w > y.left - 8 && cy < y.bottom + 8 && cy + h > y.top - 8) continue;
+        if (Math.hypot(cx - curX, cy - curY) < 40) continue;   // que siempre cambie de lugar
+        spots.push([Math.hypot(cx + w / 2 - px, cy + h / 2 - py), cx, cy]);
+      }
+    }
+    if (!spots.length) { setPos(0, 0); return; }
+    spots.sort(function (m, n) { return n[0] - m[0]; });
+    var s = spots[Math.floor(Math.random() * Math.max(1, Math.ceil(spots.length / 3)))];
+    setPos(s[1] - homeX, s[2] - homeY);
+  }
+  function attempt(px, py) {
+    var now = Date.now();
+    if (now - lastTry < 350) return;   // evita contar dos veces el mismo intento
+    lastTry = now;
+    tries++;
+    if (tries >= 3) { alertGaru.hidden = false; garuClose.focus(); return; }
+    runAway(px, py);
+  }
+  // mouse: cuenta al acercarse; pantalla táctil: cuenta al tocar; teclado: cuenta con Enter o espacio
+  no2.addEventListener("pointerenter", function (e) {
+    if (e.pointerType === "mouse") attempt(e.clientX, e.clientY);
+  });
+  no2.addEventListener("pointerdown", function (e) {
+    e.preventDefault();
+    attempt(e.clientX, e.clientY);
+  });
+  no2.addEventListener("click", function (e) {
+    e.preventDefault();
+    if (e.detail !== 0) return;
+    var r = no2.getBoundingClientRect();
+    attempt(r.left + r.width / 2, r.top + r.height / 2);
+  });
+  window.addEventListener("resize", function () { setPos(0, 0); });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key !== "Escape") return;
+    if (!alertEl.hidden) closeAlert();
+    else if (!alertYes.hidden) closeYes();
+    else if (!alertGaru.hidden) closeGaru();
+    else if (!vmodal.hidden) closeVideo();
+  });
+})();
+</script>
